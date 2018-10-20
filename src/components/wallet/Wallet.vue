@@ -149,10 +149,9 @@ export default {
 </script>
 <style scoped lang="less">
 @import "../../assets/mixin.less";
+h2{ font-size: 1rem; margin: .3rem 0;}
 .wallet{position: absolute;top: 50px;left: 0;right: 0;bottom: 0;background-color: #fff;z-index: 12;overflow:auto;
-	&-msg{background:@grayBg; padding:.8rem; margin-bottom: .3rem; display: block; text-align: center;
-		h2{ font-size: 1rem; margin: .3rem 0;}
-	}
+	&-msg{background:@grayBg; padding:.8rem; margin-bottom:.3rem; display: block;}
 	.title{ padding:.3rem .6rem;}
 	&-money{
 		.van-col{ text-align: center;

@@ -22,7 +22,6 @@ const actions = {//操作命令
     setDirection: function({commit},payload){
         commit(types.UPDATE_DIRECTION,payload)
     }
-
 }
 
 const getters = {//读取

@@ -125,16 +125,5 @@ export default {
     transform: translate3d(2rem, 0, 0);
     opacity: 0;
 }
-.couponGood{position: absolute;top: 50px;left: 0;right: 0;bottom: 50px;background-color: #fff;z-index: 12;overflow:auto;
-	.van-card{border-bottom: 1px @grayBg solid;}
-	&-tle{ font-weight: 500; padding: .3rem;}
-	&-thumb img{ width:2rem; overflow: hidden;}
-	&-title{ 
-		h3{font-weight: 500; font-size:@rem_15; margin:.3rem 0;color:@colors;}
-		p{font-size:@rem_12; margin: 0;color:@colorGray;}
-	}
-	&-desc{font-size:@rem_12;}
-	&-btn{ position: absolute; right: .5rem; top: 50%; transform: translateY(-50%);}
-	
-}
+
 </style>

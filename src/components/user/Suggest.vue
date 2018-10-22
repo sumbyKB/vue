@@ -57,12 +57,8 @@ export default {
 
 </script>
 <style scoped lang="less">
-	@import "../../assets/mixin.less";
-.suggest{position: absolute;top: 50px;left: 0;right: 0;bottom: 0;background-color: #fff;z-index: 12;overflow:auto;
-	&-textarea{ background:@grayBg; width: 90%; margin: .3rem auto 0 auto;}	
-	&-btn{ text-align: center;}
-}
+
 </style>
 <style>
-	.van-icon-clear{ color: #f00; position: static !important;}
+	
 </style>

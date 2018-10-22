@@ -141,25 +141,4 @@ export default {
 // .router-slid-enter-active, .router-slid-leave-active {transition: all .4s;}
 // .router-slid-enter, .router-slid-leave-active {transform: translate3d(2rem, 0, 0);opacity: 0;}
 
-.my{ position: absolute; top: 50px;left: 0;right: 0;bottom:50px;background-color: #fff;z-index: 12;overflow: auto;
-	.van-icon-setting{ color: @colors;}
-	.hr{ height: 5px; background: @grayBg; width: 100%;}
-	&-msg{ background: @grayBg; padding:.8rem;display: block; position: relative;
-		.headpic{ border-radius: 100%; width: 2rem; height: 2rem;}
-		.headtxt{ color:@colorDefault; padding: .3rem 0;
-			span{ margin-bottom: .3rem; display: block;}
-		}
-		.headicon{ position: absolute; top: 50%; transform: translateY(-50%); color: @colorDefault;}
-	}
-	&-links { font-size:@rem_12;text-align: center; padding: .3rem 0;
-			a{ color: @colorDefault;
-				.van-icon{display: block;font-size: @rem_24;padding:.5rem 0;}
-			}
-	}
-	&-foot{
-		a{ color:@colorDefault;
-			.van-icon{ display: block;font-size:  @rem_16; text-align: center; margin-bottom: .1rem;}
-		}
-	}
-}
 </style>

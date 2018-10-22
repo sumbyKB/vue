@@ -126,22 +126,5 @@ export default {
 </script>
 <style scoped lang="less">
 @import "../../assets/mixin.less";
-.router-slid-enter-active, .router-slid-leave-active {
-    transition: all .4s;
-}
-.router-slid-enter, .router-slid-leave-active {
-    transform: translate3d(2rem, 0, 0);
-    opacity: 0;
-}
-.coupon{position: absolute;top: 0;left: 0;right: 0;bottom: 0;background-color: #fff;z-index: 12; overflow: auto;
-	&-thumb{ text-align: center; background:@grayBg; width: 100%; height: 100%; position: relative;
-		&-txt{ font-size:@rem_12; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%;}
-	}
-	&-title{ 
-		h3{font-weight: 500; font-size:@rem_18; margin: 5px 0;color:@colors;}
-		p{font-size:@rem_12; margin: 0;color:@colorGray; margin-bottom: .2rem;}
-	}
-	&-btn{ position: absolute; right:.5rem; top: .3rem; }
-	&-desc{font-size:@rem_12;}
-}
+
 </style>

@@ -62,6 +62,6 @@ export default {
 <style scoped lang="less">
 .banner{width:100%;height:300px;background:#ccc;}
 .banner .van-swipe{ width:100%;height:300px; }
-.container{ padding-top:46px; }
+.container{ }
 
 </style>

@@ -48,8 +48,9 @@ export default [
     redirect: '/home'
   },
   {//首页
-    path: '/home',
+    path: '/home/:ss',
     component: Home,
+    name:'home',
     meta: {
       name: '首页',  // 头部导航name
       title: '首页',  //页面title

@@ -1,9 +1,9 @@
 <template>
     <van-tabbar v-model="active"  >
-        <router-link tag="div" class="van-tabbar-item"  active-class="router-active" icon="home" :to="{path:'/home'}">
+        <router-link tag="div" class="van-tabbar-item"  active-class="router-active" icon="home" :to="{name:'home',path:'/home',params:{ss:item.id}}">
             <van-icon name="home" />首页
         </router-link >
-        <router-link tag="div" class="van-tabbar-item"  active-class="router-active" icon="shop" :to="{path:'/shop'}">
+        <router-link tag="div" class="van-tabbar-item"  active-class="router-active" icon="shop" :to="{path:'/shop',params:{ss:item.yy}}">
             <van-icon name="shop" />购物
         </router-link >
         <router-link tag="div" class="van-tabbar-item"  active-class="router-active" icon="gift" :to="{path:'/life'}">
@@ -23,7 +23,7 @@
     	data(){
             return{
                 active: 0,
-             
+                item:{id:'123',yy:'555'}
             }
         },
         mounted(){

@@ -16,7 +16,7 @@
         <van-swipe-item>4</van-swipe-item>
     </van-swipe>
   </div> 
-  <div class="hometest">首页测试less的用处</div>
+  <div class="hometest">首页测试less的用处{{this.$route.params.ss}}</div>
   <foot-bottom v-if="BarBool"></foot-bottom>
 </div>
 </template>

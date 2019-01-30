@@ -48,7 +48,7 @@ export default [
     redirect: '/home'
   },
   {//首页
-    path: '/home/:ss',
+    path: '/home',
     component: Home,
     name:'home',
     meta: {
@@ -205,6 +205,7 @@ export default [
   {
     path: '/shop',  //商品列表
     component: Shop,
+    name: 'shop',
     meta: {
       name: '购物',  // 头部导航name
       title: '购物',  //页面title

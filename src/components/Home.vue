@@ -16,7 +16,7 @@
         <van-swipe-item>4</van-swipe-item>
     </van-swipe>
   </div> 
-  <div class="hometest">首页测试less的用处{{this.$route.params.ss}}</div>
+  <div class="hometest">{{this.$route.params.ss}}</div>
   <foot-bottom v-if="BarBool"></foot-bottom>
 </div>
 </template>
@@ -62,6 +62,4 @@ export default {
 <style scoped lang="less">
 .banner{width:100%;height:300px;background:#ccc;}
 .banner .van-swipe{ width:100%;height:300px; }
-.container{ }
-
 </style>

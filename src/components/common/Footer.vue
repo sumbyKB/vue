@@ -3,7 +3,7 @@
         <router-link tag="div" class="van-tabbar-item"  active-class="router-active" icon="home" :to="{name:'home',path:'/home',params:{ss:item.id}}">
             <van-icon name="home" />首页
         </router-link >
-        <router-link tag="div" class="van-tabbar-item"  active-class="router-active" icon="shop" :to="{path:'/shop',params:{ss:item.yy}}">
+        <router-link tag="div" class="van-tabbar-item"  active-class="router-active" icon="shop" :to="{name:'shop',path:'/shop',params:{yy:item.yy}}">
             <van-icon name="shop" />购物
         </router-link >
         <router-link tag="div" class="van-tabbar-item"  active-class="router-active" icon="gift" :to="{path:'/life'}">

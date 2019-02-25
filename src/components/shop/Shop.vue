@@ -19,7 +19,6 @@
           <van-badge-group :active-key="activeKey">
             <van-badge v-for='(item,index) in tables.title' :title="item" @click="onClick" :key="index"/>
           </van-badge-group>
-
           <van-tab class="destion" v-for="index in tabs" :key="index" :title="index" >
             <div class="destion_">
               <span>综合排序</span>

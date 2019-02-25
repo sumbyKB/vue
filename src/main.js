@@ -83,8 +83,8 @@ router.beforeEach(function (to, from, next) {
 });
 
 router.afterEach((to, from, next) => {
-	document.title = to.meta.title ? to.meta.title : '万讯七子' ;
-	store.dispatch('setTitle',to.meta.name ? to.meta.name : '万讯七子');
+	document.title = to.meta.title ? to.meta.title : '123' ;
+	store.dispatch('setTitle',to.meta.name ? to.meta.name : '123');
 	store.dispatch('setNavBool',to.meta.navBool ? to.meta.navBool : true );
 	store.dispatch('setBarBool',to.meta.barBool? to.meta.barBool : true );
  })

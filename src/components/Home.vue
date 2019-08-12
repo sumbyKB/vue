@@ -9,6 +9,7 @@
       />
   </form>
   <h4>this is dev branch</h4>
+  <h4>this is fix</h4>
   <div class="banner">
     <van-swipe :autoplay="3000">
         <van-swipe-item>1</van-swipe-item>

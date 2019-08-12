@@ -5,7 +5,7 @@
   <form action="/">
       <van-search
         v-model="keyword"
-        placeholder="请输入商品名称"
+        placeholder="请输入商品名称 version1.0 这是版本的1.0"
       />
   </form>
   <div class="banner">

@@ -8,6 +8,7 @@
         placeholder="请输入商品名称 version1.0 这是版本的1.0"
       />
   </form>
+  <h4>this is master branch</h4>
   <div class="banner">
     <van-swipe :autoplay="3000">
         <van-swipe-item>1</van-swipe-item>
